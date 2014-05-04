@@ -1,0 +1,26 @@
+{
+  "name": "pelger-cbt",
+  "description": "Callback table",
+  "keywords": [
+    "callback",
+    "table"
+  ],
+  "version": "0.0.1",
+  "license": "MIT",
+  "author": "Peter Elger (http://nearform.com/)",
+  "contributors": [
+    "Peter Elger <elger.peter@gmail.com> (http://peterelger.com/)",
+  ],
+  "engines": {
+    "node": "*"
+  },
+  "dependencies": {
+  },
+  "main": "cbt",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pelger/cbt.git"
+  },
+  "devDependencies": {
+  }
+}
