@@ -14,6 +14,9 @@
 
 'use strict';
 
+var uuid = require('uuid');
+
+
 
 /**
  * callback table
@@ -26,10 +29,21 @@ module.exports = function() {
   /**
    * track callback by id
    */
-  var track = function(id, cb) {
+  var track = function(cb) {
+    var id = uuid.v4();
     _table[id] = { callback: cb, ts: (new Date()).getTime() };
+    return id;
   };
 
+
+
+  /**
+   * track callback by id
+   */
+  var trackById = function(id, cb) {
+    _table[id] = { callback: cb, ts: (new Date()).getTime() };
+    return id;
+  };
 
 
   /**
@@ -60,6 +74,7 @@ module.exports = function() {
   construct();
   return {
     track: track,
+    trackById: trackById,
     fetch: fetch,
     purge: purge
   };

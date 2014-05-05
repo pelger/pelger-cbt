@@ -5,22 +5,22 @@
     "callback",
     "table"
   ],
-  "version": "0.0.1",
+  "version": "0.0.2",
   "license": "MIT",
   "author": "Peter Elger (http://nearform.com/)",
   "contributors": [
-    "Peter Elger <elger.peter@gmail.com> (http://peterelger.com/)",
+    "Peter Elger <elger.peter@gmail.com> (http://peterelger.com/)"
   ],
   "engines": {
     "node": "*"
   },
   "dependencies": {
+    "uuid": "~1.4.1"
   },
   "main": "cbt",
   "repository": {
     "type": "git",
     "url": "https://github.com/pelger/cbt.git"
   },
-  "devDependencies": {
-  }
+  "devDependencies": {}
 }
