@@ -20,7 +20,7 @@
   "main": "cbt",
   "repository": {
     "type": "git",
-    "url": "https://github.com/pelger/cbt.git"
+    "url": "https://github.com/pelger/pelger-cbt.git"
   },
   "devDependencies": {}
 }
